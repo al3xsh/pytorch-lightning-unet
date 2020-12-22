@@ -1,0 +1,22 @@
+# ignore the "wip" and "experimental" work in progress directories
+**/wip/
+**/experimental
+
+# ignore ide files
+.spyproject/
+
+# ignore raw training data (too big for github anyway!)
+data/
+
+# ignore big files
+**/*.mat
+*.tgz
+*.zip
+*.tar
+
+# ignore model checkpoints and logs
+**/weights/
+**/lightning_logs/
+
+# ignore compiled python modules
+**/__pycache__/
