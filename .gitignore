@@ -1,6 +1,7 @@
 # ignore the "wip" and "experimental" work in progress directories
 **/wip/
 **/experimental
+.ipynb_checkpoints
 
 # ignore ide files
 .spyproject/
