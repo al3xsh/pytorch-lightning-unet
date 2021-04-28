@@ -17,8 +17,7 @@ class UNetConvolutionalBlock(nn.Module):
         self.conv2 = nn.Conv2d(out_channels, out_channels, kernel_size, padding=1)
         self.relu_ = nn.ReLU()
         
-        # note, as in the original paper, we are not applying any 
-        # normalisation here
+        # note, as in the original paper, we are not applying any normalisation
         
     
     # do the forward pass through the UNetConvolutionalBlock

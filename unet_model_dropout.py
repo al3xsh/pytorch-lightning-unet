@@ -17,11 +17,10 @@ class UNetConvolutionalBlock(nn.Module):
         self.relu_ = nn.ReLU()
         
         # we are using "same" padding here - rather than the unpadded version they
-        # use in the paper. this measn we don't have to mess about with cropping
+        # use in the paper. this means we don't have to mess about with cropping
         # the ground truth masks before calculating the loss
         
-        # note, as in the original paper, we are not applying any 
-        # normalisation
+        # note, as in the original paper, we are not applying any normalisation
         
     
     # do the forward pass through the UNetConvolutionalBlock
